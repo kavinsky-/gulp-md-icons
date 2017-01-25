@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "gulp-md-icons@0.2.3",
+        "scope": null,
+        "escapedName": "gulp-md-icons",
+        "name": "gulp-md-icons",
+        "rawSpec": "0.2.3",
+        "spec": "0.2.3",
+        "type": "version"
+      },
+      "C:\\Users\\Abdelhadi\\Desktop\\Frontend\\frontoffice"
+    ]
+  ],
+  "_from": "gulp-md-icons@0.2.3",
+  "_id": "gulp-md-icons@0.2.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gulp-md-icons",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "mchmielarski",
+    "email": "m.chmielarski@gmail.com"
+  },
+  "_npmVersion": "2.7.4",
+  "_phantomChildren": {
+    "core-util-is": "1.0.2",
+    "inherits": "2.0.3",
+    "string_decoder": "0.10.31",
+    "xtend": "4.0.1"
+  },
+  "_requested": {
+    "raw": "gulp-md-icons@0.2.3",
+    "scope": null,
+    "escapedName": "gulp-md-icons",
+    "name": "gulp-md-icons",
+    "rawSpec": "0.2.3",
+    "spec": "0.2.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gulp-md-icons/-/gulp-md-icons-0.2.3.tgz",
+  "_shasum": "947c1b0d74ddae6e85b779c1e5c34f80ac66c422",
+  "_shrinkwrap": null,
+  "_spec": "gulp-md-icons@0.2.3",
+  "_where": "C:\\Users\\Abdelhadi\\Desktop\\Frontend\\frontoffice",
+  "author": {
+    "name": "Maciej Chmielarski",
+    "email": "m.chmielarski@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/mchmielarski/gulp-md-icons/issues"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5"
+  },
+  "description": "scan templates - extract icon IDs - copy to specified directory - create config file",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "947c1b0d74ddae6e85b779c1e5c34f80ac66c422",
+    "tarball": "https://registry.npmjs.org/gulp-md-icons/-/gulp-md-icons-0.2.3.tgz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "gitHead": "54724033c53c3dfab1033aaf32fb3902b5cdd3f0",
+  "homepage": "https://github.com/mchmielarski/gulp-md-icons",
+  "keywords": [
+    "gulpplugin",
+    "material",
+    "angular",
+    "icons"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "mchmielarski",
+      "email": "m.chmielarski@gmail.com"
+    }
+  ],
+  "name": "gulp-md-icons",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchmielarski/gulp-md-icons.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.2.3"
+}
