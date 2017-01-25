@@ -18,7 +18,7 @@ module.exports = function (options) {
 		var iconFile;
 
 		attr = attr.split('=');
-		attr[1] = attr[1].replace(new RegExp('"', 'ig'), '').split(':');
+		attr[1] = attr[1].replace(new RegExp('"', 'ig'), '').split('.');
 
 		iconName = attr[1][1];
 		iconFile = ['ic', iconName, '24px.svg'].join('_');
