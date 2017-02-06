@@ -16,8 +16,15 @@ module.exports = function (options) {
 		var iconsSetName;
 		var iconPath;
 		var iconFile;
-
-		attr = attr.split('=');
+		
+		if(attr.includes("=")){
+			attr = attr.split('=');
+		} else {
+			attr = attr.split(': ');
+		}
+		
+		console.log(attr);
+		
 		attr[1] = attr[1].replace(new RegExp('"', 'ig'), '').split('-');
 
 		iconName = attr[1][1];
@@ -38,9 +45,10 @@ module.exports = function (options) {
 	};
 
 	var extractIcons = function (fileContent) {
-		var regExp = /(md|ne)-svg-icon=("[^<>"]*"|'[^<>']*'|\w+)/ig;
-		var result = fileContent.match(regExp);
-
+		var regExp1 = /(md|ne)-svg-icon=("[^<>"]*"|'[^<>']*'|\w+)/ig;
+		var regExp2 = /icon:\s("[^<>"]*"|'[^<>']*'|\w+)/ig;
+		var result = (fileContent.match(regExp1) || []).concat((fileContent.match(regExp2) || []));
+		
 		if (!result) {
 			return [];
 		}
