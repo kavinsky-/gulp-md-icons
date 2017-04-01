@@ -23,8 +23,6 @@ module.exports = function (options) {
 			attr = attr.split(': ');
 		}
 		
-		console.log(attr);
-		
 		attr[1] = attr[1].replace(new RegExp('"', 'ig'), '').split('-');
 
 		iconName = attr[1][1];
